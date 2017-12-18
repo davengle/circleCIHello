@@ -4,25 +4,25 @@ import com.example.circlecihello.CircleCiHelloApplication;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
-public class AdderTest {
+public class MultiplierTest {
 
-    private Adder adder;
+    private Multiplier multiplier;
 
     @Before
     public void setup(){
-        adder = new Adder();
+        multiplier = new Multiplier();
     }
 
     @Test
-    public void sum2Nums() {
-        Adder adder = new Adder();
-        int sum = adder.sum2Nums(2,3);
-        assertEquals(5, sum);
+    public void multiply2Nums() {
+        assertEquals(20, multiplier.multiply2Nums(4,5));
     }
 }
