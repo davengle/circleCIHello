@@ -1,6 +1,4 @@
-https://circleci.com/gh/davengle/circleCIHello.png?circle-token=:circle-token
-
-https://circleci.com/gh/davengle/circleCIHello.svg?style=shield&circle-token=:circle-token
+[![CircleCI](https://circleci.com/gh/davengle/circleCIHello.svg?style=svg)](https://circleci.com/gh/davengle/circleCIHello)
 
 
 # circleCIHello
