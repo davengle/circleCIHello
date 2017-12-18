@@ -10,7 +10,7 @@ public class CircleCiHelloApplication {
 		SpringApplication.run(CircleCiHelloApplication.class, args);
 
 		System.out.println("############");
-		System.out.println("Hello World");
+		System.out.println("Hello World! and now testing auto builds");
 		System.out.println("############");
 	}
 }
