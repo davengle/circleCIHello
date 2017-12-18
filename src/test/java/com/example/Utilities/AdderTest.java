@@ -13,6 +13,6 @@ public class AdderTest {
     public void sum2Nums() {
         Adder adder = new Adder();
         int sum = adder.sum2Nums(2,3);
-        assertEquals(4, sum);
+        assertEquals(5, sum);
     }
 }
